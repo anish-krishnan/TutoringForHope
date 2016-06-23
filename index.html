@@ -442,19 +442,28 @@
                 <!-- END ERROR AND SUCCESS MESSAGE -->
 
                 <!-- FORM -->
-                <form method="post" action="http://formspree.io/anishtech1@gmail.com">
-                  <div class="row uniform">
-                    <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                    <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                    <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                    <div class="12u$">
-                      <ul class="actions">
-                        <li><input type="submit" value="Send Message" class="special" /></li>
-                      </ul>
-                    </div>
-                  </div>
-                </form>
-                
+
+                <form action="https://formspree.io/anishtech1@gmail.com"  method="POST" >
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="name" class="form-control" id="name" placeholder="Name">
+                                <input type="email" class="form-control" id="name" placeholder="Email">
+                                <input type="subject" class="form-control" id="name" placeholder="Subject">
+
+                            </div>
+
+
+                            <div class="col-md-8">
+                              <input type="text" class="form-control" id="name" placeholder="Message">
+                               <input type="submit" class="submit-btn" rows="25" cols="10" value="Send Message">
+                              <!--
+                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
+                              -->
+                            </div>
+
+                        </div>
+                    </form>
                     <!-- END FORM -->
                 </div>
             </div>
